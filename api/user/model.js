@@ -1,8 +1,4 @@
 const mongoose = require('mongoose');
-// const validator = require('validator');
-const _ = require('lodash');
-const jwt = require('jsonwebtoken');
-const Schema = mongoose.Schema;
 
 const UserSchema = new mongoose.Schema({
   userName: {
